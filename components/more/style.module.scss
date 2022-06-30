@@ -1,0 +1,44 @@
+.more_wrap {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.more_btn {
+  color: #1890ff;
+  border: 1px solid currentColor;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.more_btn_fetching {
+  cursor: not-allowed;
+}
+
+.dot {
+  display: inline-block;
+  height: 1em;
+  line-height: 1;
+  overflow: hidden;
+  vertical-align: -0.25ex;
+}
+
+.dot::after {
+  display: block;
+  content: "...\A..\A.";
+  white-space: pre-wrap;
+  animation: dotframes 3s infinite step-start both;
+}
+
+@keyframes dotframes {
+  33% {
+    transform: translateY(-2em);
+  }
+
+  66% {
+    transform: translateY(-1em);
+  }
+}

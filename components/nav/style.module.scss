@@ -1,0 +1,23 @@
+.navs {
+  height: 64px;
+  margin: 0 24px !important;
+  border: none !important;
+  min-width: 400px;
+  background-color: #ffffff;
+  display: flex;
+  .nav-item {
+    line-height: 63px;
+    // border: none !important;
+  }
+  // .ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+  //     border: none !important;
+  // }
+  // > ul {
+  //     list-style: none;
+
+  //     .nav-item {
+  //         display: inline-block;
+  //         margin:0 12px;
+  //     }
+  // }
+}

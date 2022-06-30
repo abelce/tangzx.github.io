@@ -1,0 +1,44 @@
+.login {
+  background-color: #ffffff;
+  padding: 10px;
+  .content {
+    display: flex;
+  }
+  .main {
+    flex: 1;
+    padding: 32px;
+  }
+  .methods {
+    margin-top: 12px;
+    width: 300px;
+    padding-left: 20px;
+    border-left: 1px solid #e8e8e8;
+    .list {
+      margin-top: 20px;
+    }
+    button {
+      border: 1px solid #e8e8e8;
+      padding: 6px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      border-radius: 3px;
+    }
+    .github_icon {
+      display: inline-block;
+      mask-image: url("/static/images/github.svg");
+      height: 24px;
+      width: 24px;
+      mask-size: contain;
+      background-color: #000000;
+      margin-right: 4px;
+    }
+  }
+  .email_login {
+    width: 400px;
+    margin: auto;
+  }
+  .registry_success {
+    text-align: center;
+  }
+}

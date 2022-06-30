@@ -1,0 +1,21 @@
+.contacts {
+  margin-top: 20px;
+  background-color: #fafafa;
+  .modal {
+    width: 400px;
+  }
+  .list {
+    list-style: none;
+  }
+  .item {
+    padding: 12px;
+    background-color: #ffffff;
+  }
+  .title {
+    color: #777;
+    background-color: #fafafa;
+  }
+  .contact_item {
+    cursor: pointer;
+  }
+}
