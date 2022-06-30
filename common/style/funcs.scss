@@ -1,5 +1,0 @@
-@mixin font-size-default($size: 14) {
-    $lineHeight: $size + 4;
-    font-size: $size + px;
-    line-height: $lineHeight + px;
-}
